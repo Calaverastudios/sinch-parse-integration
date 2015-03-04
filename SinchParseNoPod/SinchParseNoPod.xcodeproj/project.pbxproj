@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7766BD0E1AA68A000022CABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766BD0D1AA68A000022CABA /* main.m */; };
+		7766BD111AA68A000022CABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766BD101AA68A000022CABA /* AppDelegate.m */; };
+		7766BD141AA68A000022CABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766BD131AA68A000022CABA /* ViewController.m */; };
+		7766BD171AA68A000022CABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7766BD151AA68A000022CABA /* Main.storyboard */; };
+		7766BD191AA68A000022CABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7766BD181AA68A000022CABA /* Images.xcassets */; };
+		7766BD1C1AA68A000022CABA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7766BD1A1AA68A000022CABA /* LaunchScreen.xib */; };
+		7766BD281AA68A000022CABA /* SinchParseNoPodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7766BD271AA68A000022CABA /* SinchParseNoPodTests.m */; };
+		7766BD341AA68A280022CABA /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD321AA68A280022CABA /* Parse.framework */; };
+		7766BD361AA68A620022CABA /* Sinch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD351AA68A620022CABA /* Sinch.framework */; };
+		7766BD391AA68A9A0022CABA /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD371AA68A9A0022CABA /* AudioToolbox.framework */; };
+		7766BD3A1AA68A9A0022CABA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD381AA68A9A0022CABA /* AVFoundation.framework */; };
+		7766BD3C1AA68AA10022CABA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD3B1AA68AA10022CABA /* Security.framework */; };
+		7766BD3E1AA68D220022CABA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD3D1AA68D220022CABA /* CFNetwork.framework */; };
+		7766BD481AA68DFE0022CABA /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD3F1AA68DFE0022CABA /* CoreImage.framework */; };
+		7766BD491AA68DFE0022CABA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD401AA68DFE0022CABA /* libsqlite3.dylib */; };
+		7766BD4A1AA68DFE0022CABA /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD411AA68DFE0022CABA /* libstdc++.6.0.9.dylib */; };
+		7766BD4B1AA68DFE0022CABA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD421AA68DFE0022CABA /* libz.dylib */; };
+		7766BD4C1AA68DFE0022CABA /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD431AA68DFE0022CABA /* MobileCoreServices.framework */; };
+		7766BD4D1AA68DFE0022CABA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD441AA68DFE0022CABA /* QuartzCore.framework */; };
+		7766BD4E1AA68DFE0022CABA /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD451AA68DFE0022CABA /* Social.framework */; };
+		7766BD4F1AA68DFE0022CABA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD461AA68DFE0022CABA /* StoreKit.framework */; };
+		7766BD501AA68DFE0022CABA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD471AA68DFE0022CABA /* SystemConfiguration.framework */; };
+		7766BD531AA68E160022CABA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD511AA68E160022CABA /* CoreGraphics.framework */; };
+		7766BD541AA68E160022CABA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD521AA68E160022CABA /* CoreLocation.framework */; };
+		7766BD561AA68EA60022CABA /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD551AA68EA60022CABA /* Accounts.framework */; };
+		7766BD581AA690C20022CABA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7766BD571AA690C20022CABA /* Bolts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7766BD221AA68A000022CABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7766BD001AA68A000022CABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7766BD071AA68A000022CABA;
+			remoteInfo = SinchParseNoPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7766BD081AA68A000022CABA /* SinchParseNoPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinchParseNoPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7766BD0C1AA68A000022CABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7766BD0D1AA68A000022CABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7766BD0F1AA68A000022CABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7766BD101AA68A000022CABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7766BD121AA68A000022CABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7766BD131AA68A000022CABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7766BD161AA68A000022CABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7766BD181AA68A000022CABA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7766BD1B1AA68A000022CABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7766BD211AA68A000022CABA /* SinchParseNoPodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinchParseNoPodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7766BD261AA68A000022CABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7766BD271AA68A000022CABA /* SinchParseNoPodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinchParseNoPodTests.m; sourceTree = "<group>"; };
+		7766BD311AA68A280022CABA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		7766BD321AA68A280022CABA /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		7766BD351AA68A620022CABA /* Sinch.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sinch.framework; sourceTree = "<group>"; };
+		7766BD371AA68A9A0022CABA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7766BD381AA68A9A0022CABA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7766BD3B1AA68AA10022CABA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		7766BD3D1AA68D220022CABA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		7766BD3F1AA68DFE0022CABA /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		7766BD401AA68DFE0022CABA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		7766BD411AA68DFE0022CABA /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		7766BD421AA68DFE0022CABA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		7766BD431AA68DFE0022CABA /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7766BD441AA68DFE0022CABA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7766BD451AA68DFE0022CABA /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		7766BD461AA68DFE0022CABA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		7766BD471AA68DFE0022CABA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7766BD511AA68E160022CABA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7766BD521AA68E160022CABA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7766BD551AA68EA60022CABA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7766BD571AA690C20022CABA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1.6.3/Bolts.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7766BD051AA68A000022CABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766BD561AA68EA60022CABA /* Accounts.framework in Frameworks */,
+				7766BD531AA68E160022CABA /* CoreGraphics.framework in Frameworks */,
+				7766BD541AA68E160022CABA /* CoreLocation.framework in Frameworks */,
+				7766BD3E1AA68D220022CABA /* CFNetwork.framework in Frameworks */,
+				7766BD581AA690C20022CABA /* Bolts.framework in Frameworks */,
+				7766BD481AA68DFE0022CABA /* CoreImage.framework in Frameworks */,
+				7766BD491AA68DFE0022CABA /* libsqlite3.dylib in Frameworks */,
+				7766BD4A1AA68DFE0022CABA /* libstdc++.6.0.9.dylib in Frameworks */,
+				7766BD4B1AA68DFE0022CABA /* libz.dylib in Frameworks */,
+				7766BD4C1AA68DFE0022CABA /* MobileCoreServices.framework in Frameworks */,
+				7766BD4D1AA68DFE0022CABA /* QuartzCore.framework in Frameworks */,
+				7766BD4E1AA68DFE0022CABA /* Social.framework in Frameworks */,
+				7766BD4F1AA68DFE0022CABA /* StoreKit.framework in Frameworks */,
+				7766BD501AA68DFE0022CABA /* SystemConfiguration.framework in Frameworks */,
+				7766BD3C1AA68AA10022CABA /* Security.framework in Frameworks */,
+				7766BD391AA68A9A0022CABA /* AudioToolbox.framework in Frameworks */,
+				7766BD3A1AA68A9A0022CABA /* AVFoundation.framework in Frameworks */,
+				7766BD341AA68A280022CABA /* Parse.framework in Frameworks */,
+				7766BD361AA68A620022CABA /* Sinch.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7766BD1E1AA68A000022CABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7766BCFF1AA68A000022CABA = {
+			isa = PBXGroup;
+			children = (
+				7766BD571AA690C20022CABA /* Bolts.framework */,
+				7766BD551AA68EA60022CABA /* Accounts.framework */,
+				7766BD511AA68E160022CABA /* CoreGraphics.framework */,
+				7766BD521AA68E160022CABA /* CoreLocation.framework */,
+				7766BD3F1AA68DFE0022CABA /* CoreImage.framework */,
+				7766BD401AA68DFE0022CABA /* libsqlite3.dylib */,
+				7766BD411AA68DFE0022CABA /* libstdc++.6.0.9.dylib */,
+				7766BD421AA68DFE0022CABA /* libz.dylib */,
+				7766BD431AA68DFE0022CABA /* MobileCoreServices.framework */,
+				7766BD441AA68DFE0022CABA /* QuartzCore.framework */,
+				7766BD451AA68DFE0022CABA /* Social.framework */,
+				7766BD461AA68DFE0022CABA /* StoreKit.framework */,
+				7766BD471AA68DFE0022CABA /* SystemConfiguration.framework */,
+				7766BD3D1AA68D220022CABA /* CFNetwork.framework */,
+				7766BD3B1AA68AA10022CABA /* Security.framework */,
+				7766BD371AA68A9A0022CABA /* AudioToolbox.framework */,
+				7766BD381AA68A9A0022CABA /* AVFoundation.framework */,
+				7766BD0A1AA68A000022CABA /* SinchParseNoPod */,
+				7766BD241AA68A000022CABA /* SinchParseNoPodTests */,
+				7766BD091AA68A000022CABA /* Products */,
+				7766BD351AA68A620022CABA /* Sinch.framework */,
+				7766BD311AA68A280022CABA /* Bolts.framework */,
+				7766BD321AA68A280022CABA /* Parse.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		7766BD091AA68A000022CABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7766BD081AA68A000022CABA /* SinchParseNoPod.app */,
+				7766BD211AA68A000022CABA /* SinchParseNoPodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7766BD0A1AA68A000022CABA /* SinchParseNoPod */ = {
+			isa = PBXGroup;
+			children = (
+				7766BD0F1AA68A000022CABA /* AppDelegate.h */,
+				7766BD101AA68A000022CABA /* AppDelegate.m */,
+				7766BD121AA68A000022CABA /* ViewController.h */,
+				7766BD131AA68A000022CABA /* ViewController.m */,
+				7766BD151AA68A000022CABA /* Main.storyboard */,
+				7766BD181AA68A000022CABA /* Images.xcassets */,
+				7766BD1A1AA68A000022CABA /* LaunchScreen.xib */,
+				7766BD0B1AA68A000022CABA /* Supporting Files */,
+			);
+			path = SinchParseNoPod;
+			sourceTree = "<group>";
+		};
+		7766BD0B1AA68A000022CABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7766BD0C1AA68A000022CABA /* Info.plist */,
+				7766BD0D1AA68A000022CABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7766BD241AA68A000022CABA /* SinchParseNoPodTests */ = {
+			isa = PBXGroup;
+			children = (
+				7766BD271AA68A000022CABA /* SinchParseNoPodTests.m */,
+				7766BD251AA68A000022CABA /* Supporting Files */,
+			);
+			path = SinchParseNoPodTests;
+			sourceTree = "<group>";
+		};
+		7766BD251AA68A000022CABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7766BD261AA68A000022CABA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7766BD071AA68A000022CABA /* SinchParseNoPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7766BD2B1AA68A000022CABA /* Build configuration list for PBXNativeTarget "SinchParseNoPod" */;
+			buildPhases = (
+				7766BD041AA68A000022CABA /* Sources */,
+				7766BD051AA68A000022CABA /* Frameworks */,
+				7766BD061AA68A000022CABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SinchParseNoPod;
+			productName = SinchParseNoPod;
+			productReference = 7766BD081AA68A000022CABA /* SinchParseNoPod.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7766BD201AA68A000022CABA /* SinchParseNoPodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7766BD2E1AA68A000022CABA /* Build configuration list for PBXNativeTarget "SinchParseNoPodTests" */;
+			buildPhases = (
+				7766BD1D1AA68A000022CABA /* Sources */,
+				7766BD1E1AA68A000022CABA /* Frameworks */,
+				7766BD1F1AA68A000022CABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7766BD231AA68A000022CABA /* PBXTargetDependency */,
+			);
+			name = SinchParseNoPodTests;
+			productName = SinchParseNoPodTests;
+			productReference = 7766BD211AA68A000022CABA /* SinchParseNoPodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7766BD001AA68A000022CABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "christian jensen";
+				TargetAttributes = {
+					7766BD071AA68A000022CABA = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					7766BD201AA68A000022CABA = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 7766BD071AA68A000022CABA;
+					};
+				};
+			};
+			buildConfigurationList = 7766BD031AA68A000022CABA /* Build configuration list for PBXProject "SinchParseNoPod" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7766BCFF1AA68A000022CABA;
+			productRefGroup = 7766BD091AA68A000022CABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7766BD071AA68A000022CABA /* SinchParseNoPod */,
+				7766BD201AA68A000022CABA /* SinchParseNoPodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7766BD061AA68A000022CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766BD171AA68A000022CABA /* Main.storyboard in Resources */,
+				7766BD1C1AA68A000022CABA /* LaunchScreen.xib in Resources */,
+				7766BD191AA68A000022CABA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7766BD1F1AA68A000022CABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7766BD041AA68A000022CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766BD141AA68A000022CABA /* ViewController.m in Sources */,
+				7766BD111AA68A000022CABA /* AppDelegate.m in Sources */,
+				7766BD0E1AA68A000022CABA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7766BD1D1AA68A000022CABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7766BD281AA68A000022CABA /* SinchParseNoPodTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7766BD231AA68A000022CABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7766BD071AA68A000022CABA /* SinchParseNoPod */;
+			targetProxy = 7766BD221AA68A000022CABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7766BD151AA68A000022CABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7766BD161AA68A000022CABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7766BD1A1AA68A000022CABA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7766BD1B1AA68A000022CABA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7766BD291AA68A000022CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7766BD2A1AA68A000022CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7766BD2C1AA68A000022CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/christianjensen/Downloads/parse-library-1.6.3",
+				);
+				INFOPLIST_FILE = SinchParseNoPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-Xlinker",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7766BD2D1AA68A000022CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"/Users/christianjensen/Downloads/parse-library-1.6.3",
+				);
+				INFOPLIST_FILE = SinchParseNoPod/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-Xlinker",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7766BD2F1AA68A000022CABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SinchParseNoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinchParseNoPod.app/SinchParseNoPod";
+			};
+			name = Debug;
+		};
+		7766BD301AA68A000022CABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SinchParseNoPodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SinchParseNoPod.app/SinchParseNoPod";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7766BD031AA68A000022CABA /* Build configuration list for PBXProject "SinchParseNoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7766BD291AA68A000022CABA /* Debug */,
+				7766BD2A1AA68A000022CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7766BD2B1AA68A000022CABA /* Build configuration list for PBXNativeTarget "SinchParseNoPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7766BD2C1AA68A000022CABA /* Debug */,
+				7766BD2D1AA68A000022CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7766BD2E1AA68A000022CABA /* Build configuration list for PBXNativeTarget "SinchParseNoPodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7766BD2F1AA68A000022CABA /* Debug */,
+				7766BD301AA68A000022CABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7766BD001AA68A000022CABA /* Project object */;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ParseSinchPods-Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ParseSinchPods-Parse.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ParseSinchPods-SinchRTC.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ParseSinchPods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>040E3713F5C4C4B3554512EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>28D3754C048EFFAB24DF8F57</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631A2692D9A9D136317B8535</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87CC8C2EE1A4F694B97910E5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

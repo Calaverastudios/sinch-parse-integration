@@ -1,0 +1,16 @@
+PODS:
+  - Bolts (1.1.4)
+  - Parse (1.6.3):
+    - Bolts (~> 1.1)
+  - SinchRTC (3.4.2)
+
+DEPENDENCIES:
+  - Parse
+  - SinchRTC
+
+SPEC CHECKSUMS:
+  Bolts: dd9fb8433d67f5acc3b6b4d1379bbc5513d716c1
+  Parse: f725f76ef200c5127420690fc6882e57c3813923
+  SinchRTC: f8167cb84abe3f114d093e20202a861dc59ca8be
+
+COCOAPODS: 0.35.0
