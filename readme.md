@@ -1,15 +1,18 @@
+![](images/builderrors.png)
 # Using sinch with parse the -ObjC flag and other issues you might run into
 
-Let me start by saying, the easiest way by far to use sinch on its own and parse on its own is to use it with cocoa pods. And using parse and sinch together is alot easier also with cocoapods. You should get no errors what so ever using us together while using pods.
+In this post we are going to deal with the -ObjC flag that Sinch SDK requires and what to do when you also want to integrate the wonderful service Parse.
 
-## What if I hate pods?
-Well its certainly possible to use both of our frameworks together. Sinch along with many other frameworks require the -ObjC flag to bet set. Parse have some dependcies on bold and implicit on Facebook with causes some problems with -ObjC flag, dependencies on Facebook and What is ObjC flag?
+Let me start by saying, the easiest way by far to use Sinch on its own and parse on its own is to use it with cocoa pods. And using parse and Sinch together is a lot easier also with cocoa-pods. You should get no errors what so ever using us together while using pods.
+
+## What if I don't want to or can't use pods?
+Well its certainly possible to use both of our frameworks together. Sinch along with many other frameworks require the -ObjC flag to bet set. Parse have some dependencies on bold and implicit on Facebook with causes some problems with -ObjC flag, dependencies on Facebook and What is ObjC flag?
 
 > This flag causes the linker to load every object file in the library that defines an Objective-C class or category. While this option will typically result in a larger executable (due to additional object code loaded into the application), it will allow the successful creation of effective Objective-C static libraries that contain categories on existing classes.
  
 source: [https://developer.apple.com/library/mac/qa/qa1490/_index.html](https://developer.apple.com/library/mac/qa/qa1490/_index.html) 
 
-What that means is that it will try and load all decencies at build time independent if they are used or not. 
+What that means is that it will try and load all linked framework at build time independent if they are used or not in your code. 
 
 ### Solution
 First make sure you have the required coca frameworks for Sinch 
@@ -68,9 +71,7 @@ libstdc++.6.0.9
 Thats all, If you are still running in to problems and want our help with it make a private repo and github and invite me.
 One last note, if you are **also** using the FacebookSDK you need to remove Bolts because that I believe is built in to the FacebookSDK.
 
-###Or just use pods man
-
-/Christian
+Happy building
 
 
 
