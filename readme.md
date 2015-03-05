@@ -1,9 +1,10 @@
-![](images/builderrors.png)
-# Using sinch with parse the -ObjC flag and other issues you might run into
+# Using Sinch with Parse, the -ObjC flag, and other issues you might run into
 
-In this post we are going to deal with the -ObjC flag that Sinch SDK requires and what to do when you also want to integrate the wonderful service Parse.
+![build errors](images/builderrors.png)
 
-Let me start by saying, the easiest way by far to use Sinch on its own and parse on its own is to use it with cocoa pods. And using parse and Sinch together is a lot easier also with cocoa-pods. You should get no errors what so ever using us together while using pods.
+In this post we are going to deal with the **-ObjC** flag that Sinch SDK requires and what to do when you also want to integrate with [Parse](https://parse.com/).
+
+Let me start by saying, the easiest way to use Sinch and Parse, is to use it with cocoa pods. You should get no errors using these two services together while using pods.
 
 ## What if I don't want to or can't use pods?
 Well its certainly possible to use both of our frameworks together. Sinch along with many other frameworks require the -ObjC flag to bet set. Parse have some dependencies on bold and implicit on Facebook with causes some problems with -ObjC flag, dependencies on Facebook and What is ObjC flag?
@@ -25,7 +26,7 @@ Security.framework
 
 Set the **other linker flags** of your target to ```-ObjC -Xlinker -lc++``` 
 
-Second add the parse framework to your project and add the base stuff needed by parse. This is all the requirement for Parse Core and Parse Social be aware that there might be other ones if you use other part of parse. 
+Second add the Parse framework to your project and add the base stuff needed by Parse. This is all the requirement for Parse Core and Parse Social, and be aware that there might be other ones if you use other parts of the Parse SDK. 
 
 ###Core
 
@@ -61,17 +62,17 @@ libsqlite3.dylib
 ```
 
 ## The missing part
-The last two parts are the below. I think the Bolts framework is part of social so I don't know why its not listed.   
+The last two parts are the below. I think the Bolts framework is part of Parse Social and I am not sure why it is not listed:
 
 ```
 Bolts.frameworks 
 libstdc++.6.0.9
 ``` 
 
-Thats all, If you are still running in to problems and want our help with it make a private repo and github and invite me.
-One last note, if you are **also** using the FacebookSDK you need to remove Bolts because that I believe is built in to the FacebookSDK.
+That's all. If you are still running into problems and want our help with it, just  make a private repo in Github and invite me - [spacedsweden](https://github.com/spacedsweden).
 
-Happy building
+One last note, if you are **also** using the FacebookSDK, you need to remove Bolts because that I believe is built in to the FacebookSDK.
 
+Happy building!
 
 
